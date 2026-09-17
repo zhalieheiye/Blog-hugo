@@ -1,0 +1,20 @@
+<div class="article-date">
+  <span
+    class="article-date-link icon-calendar"
+    data-aos="{{ .Site.Params.animation.options.article.date }}"
+  >创建于
+    <time datetime="{{ .Date }}" itemprop="datePublished"
+      >{{ .Date.Format .Site.Params.dateFormat }}</time
+    >
+  </span>
+  {{- if ne .Lastmod .Date -}}
+    <span
+      class="article-date-link icon-calendar-plus"
+      data-aos="{{ .Site.Params.animation.options.article.date }}"
+    >最后更新于
+      <time datetime="{{ .Lastmod }}" itemprop="dateModified"
+        >{{ .Lastmod.Format .Site.Params.dateFormat }}</time
+      >
+    </span>
+  {{- end -}}
+</div>
