@@ -1,0 +1,22 @@
+# Hugo 构建输出目录
+/public/
+
+# 资源缓存文件
+/resources/_gen/
+
+# 由 Hugo 自动生成的本地配置文件
+/assets/jsconfig.json
+
+# 构建统计信息（若启用了 writeStats）
+hugo_stats.json
+
+# 构建时临时锁文件
+/.hugo_build.lock
+
+# 若把 Hugo 二进制文件放在项目里，忽略它
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# 日志文件
+hugo.log
