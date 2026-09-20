@@ -3,7 +3,7 @@ title: "01-hugo搭建个人博客 "
 linkTitle: " " # 侧边栏/卡片上显示这个
 date: "2026-09-17T22:08:28+08:00"
 draft: false
-tags: [tech]
+tags: ["技术","hugo"]
 categories: []
 weight: 20
 keywords: ["hugo"] #keywords: ["Hugo", "教程"]
